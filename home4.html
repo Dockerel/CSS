@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Home - My first website.</title>
+    <style>
+      body {
+        height: 100vh;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 300px;
+        height: 300px;
+        background-color: teal;
+      }
+      #second {
+        background-color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div id="second">2</div>
+    <div>3</div>
+  </body>
+</html>
+<!--
+    flexbox : 
+    1. 자식 엘리먼트가 아닌 부모 엘리먼트에게 명령
+    2. display: flex; 작성 후
+       main-axix : justify-content(default), cross-axix : align-items
+       -> justify-content, align-items:vertical, 
+    3. flex-direction : column (default)
+-->
